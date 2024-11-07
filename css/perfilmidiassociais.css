@@ -14,15 +14,17 @@ div#perfilcompleto {
     margin-top: 80px;
     background-color: #262626;
     width: 350px;
-    height: 450px;
+    height: 470px;
     border-radius: 1.2rem;
     text-align: center;
     align-items: center;
 }
 
-#links {
-    margin-top: 25px;
+div > a {
+    text-decoration: none;
 }
+
+
 
 img {
     width: 70px;
@@ -32,7 +34,7 @@ img {
 
 
 p{
-    color: white
+    color: white;
 }
 
 
@@ -41,6 +43,8 @@ p#nome {
     font-weight: bold;
     font-size: 24px;
 }
+
+
 
 p#city {
     font-family: "Inter Tight", sans-serif;
@@ -54,6 +58,110 @@ p#carreira {
     font-family: "Inter Tight", sans-serif;
     font-size: 15px;
     padding: 15px;
+}
+
+div#git {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(93, 92, 92);
+    border-radius: 1rem;
+    margin-bottom: 50px;
+    padding: 10px;
+    height: 20px;
+    width: 230px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+div#front {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(93, 92, 92);
+    border-radius: 1rem;
+    margin-bottom: 50px;
+    padding: 10px;
+    height: 20px;
+    width: 230px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+#linkdedin {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(93, 92, 92);
+    border-radius: 1rem;
+    margin-bottom: 50px;
+    padding: 10px;
+    height: 20px;
+    width: 230px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+#x {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(93, 92, 92);
+    border-radius: 1rem;
+    margin-bottom: 50px;
+    padding: 10px;
+    height: 20px;
+    width: 230px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+#instagram {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(93, 92, 92);
+    border-radius: 1rem;
+    margin-bottom: 50px;
+    padding: 10px;
+    height: 20px;
+    width: 230px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+#git:hover {
+    background-color: #f9f9f9;
+    color: #0D0D0D;
+    transition: .3s;
+}
+
+#front:hover {
+    background-color: #f9f9f9;
+    color: #0D0D0D;
+    transition: .3s;
+}
+
+a > p:hover {
+    color: #0D0D0D;
+}
+
+#linkdedin:hover {
+    background-color: #f9f9f9;
+    color: #0D0D0D;
+    transition: .3s;
+}
+
+#x:hover {
+    background-color: #f9f9f9;
+    color: #0D0D0D;
+    transition: .3s;
+}
+
+#instagram:hover {
+    background-color: #f9f9f9;
+    color: #0D0D0D;
+    transition: .3s;
 }
 
 footer {
